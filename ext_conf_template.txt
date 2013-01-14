@@ -1,0 +1,2 @@
+  # cat=basic//10; type=boolean; label=TCEmain username check: Activate synchronization of username and email for fe_users so that when one field is updated, the one is updated as well
+usernameEmailSynchronization = 1
