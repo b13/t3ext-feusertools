@@ -11,17 +11,17 @@
 ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'FE User Tools',
-	'description' => 'Plugins for editing and registering Frontend Users.',
-	'category' => 'plugin',
+	'title' => 'Frontend Users Tools',
+	'description' => 'Helper functionality for frontend user handling, as well as plugins for logging in, and forgot password functionality',
+	'category' => 'misc',
 	'author' => 'Benjamin Mack',
-	'author_email' => 'benni@typo3.org',
+	'author_email' => 'benjamin.mack@b13.de',
 	'shy' => '',
 	'dependencies' => 'cms',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
-	'state' => 'beta',
+	'state' => 'stable',
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
@@ -29,10 +29,10 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '1.3.0',
+	'version' => '1.4.0',
 	'constraints' => array(
 		'depends' => array(
-			'cms' => '',
+			'typo3' => '6.0.0-6.1.99'
 		),
 		'conflicts' => array(
 		),
